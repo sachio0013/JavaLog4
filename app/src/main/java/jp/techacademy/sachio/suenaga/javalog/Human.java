@@ -24,12 +24,13 @@ class Human extends Animal implements Thinkable {
 
     // メンバ関数
     public void say() {
+        Log.d("javatest", "私の名前は" + this.name + "です。" + "歳は" + this.age + "歳です。");
 
     }
 
     @Override
     public void think() {
-        Log.d("javatest",  this.hobby);
+        Log.d("javatest", "私は" + this.hobby + "について考える");
 
 
     }

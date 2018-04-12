@@ -11,8 +11,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Human human = new Human("sachio", 38,"fishing"); //インスタンスを作る
-       
+
 
         human.say();
+
+        human.think();
     }
 }
